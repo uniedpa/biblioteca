@@ -68,7 +68,7 @@ function backToMain(URL) {
 if ($nav=="lookupOpts" || $nav=="lookupHosts" || $nav=="lookup" ){
 	if (file_exists('../lookup2/customHead.php')) {
 		include ('../lookup2/customHead.php');
-			echo "lara";
+			//echo "lara"; //Commented out OEVL 201510030921
 	}
 }	
 	## ---------------------------------------------------------------------
