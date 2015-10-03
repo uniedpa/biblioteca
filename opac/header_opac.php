@@ -99,7 +99,7 @@ function returnLookup(formName,fieldName,val) {
            echo "<img align=\"middle\" src=\"".H(OBIB_LIBRARY_IMAGE_URL)."\" border=\"0\">";
          }
          if (!OBIB_LIBRARY_USE_IMAGE_ONLY) {
-           echo ' <a href="/" class="library-name">'. H(OBIB_LIBRARY_NAME) .'</a>';
+           echo ' <a href="'.OBIB_OPAC_URL.'" class="library-name">'. H(OBIB_LIBRARY_NAME) .'</a>';
          }
        ?>
     </td>
