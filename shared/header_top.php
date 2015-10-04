@@ -100,7 +100,7 @@ if ($nav=="lookupOpts" || $nav=="lookupHosts" || $nav=="lookup" ){
      * Google
      **************************************************************************************-->
 
-<?php include_once("/analyticstracking.php") ?>
+<?php include_once("analyticstracking.php") ?>
 
 <!--
 <script>
