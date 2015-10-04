@@ -56,7 +56,7 @@ define("OBIB_SEARCH_CUTTER_DES", "48");
  *  Misc. system constants
  **************************************************************************** */
 //date_default_timezone_set('America/Mexico_City');//jalg
-date_default_timezone set('America/Panama');//UNIEDPA
+date default_timezone set('America/Panama');//UNIEDPA
 define("OBIB_CODE_VERSION",		"GB BETA 34.1");
 define("OBIB_LATEST_DB_VERSION",	"GB-0.33");
 
