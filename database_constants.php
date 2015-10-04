@@ -14,8 +14,8 @@
  */
 define('OBIB_HOST',     "localhost");//el servidor Normalmente localhost
 define('OBIB_DATABASE', "biblioteca");// La base de datos donde guardan sus datos las tablas.
-define('OBIB_USERNAME', getenv('OBIB_USERNAME'));// El usuario para mysql
-define('OBIB_PWD',      getenv('OBIB_PWD'));//el password sin encriptar
+define('OBIB_USERNAME', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));// El usuario para mysql
+define('OBIB_PWD',      getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));//el password sin encriptar
 
 /*********************************************************************************
  *  /\                                                                      /\
