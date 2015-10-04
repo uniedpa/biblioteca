@@ -76,7 +76,7 @@ function returnLookup(formName,fieldName,val) {
      * Google
      **************************************************************************************-->
 
-<?php include_once('shared/analyticstracking.php');
+<?php include_once('../shared/analyticstracking.php');
 
 </script>
 
