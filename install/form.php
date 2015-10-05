@@ -38,7 +38,7 @@
     <pre>
       MySQL : <?php echo $mysql_date; ?></br>
       PHP   : <?php echo $php_date." | date.timezone = ".ini_get('date.timezone'); ?></br>
-      /sared/global_constants.php: date_default_timezone_set('America/Mexico_City'), [<?php echo $loc->getText("form_Note_1"); ?>]</br>
+      /shared/global_constants.php: date_default_timezone_set('America/Mexico_City'), [<?php echo $loc->getText("form_Note_1"); ?>]</br>
     </pre>
 <?php
     if (ini_get('date.timezone') == get_cfg_var('date.timezone')) {
