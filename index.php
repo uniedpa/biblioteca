@@ -8,6 +8,6 @@
  * Default:
  * header("Location: home/index.php");
 */
-header("Location: home/index.php");// para inicer el espa desde admin
+//header("Location: home/index.php");// para inicer el espa desde admin
 //header("Location: front/index.php");// para iniciar con el wordpress integrado en el
-//header("Location: opac/index.php");// para iniciar es espa con pantalla opac
+header("Location: opac/index.php");// para iniciar es espa con pantalla opac
