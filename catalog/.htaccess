@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Use un nombre de usuario y clave para acceder"
+AuthUserFile ${OPENSHIFT_DATA_DIR}/.htpasswd
+Require valid-user
