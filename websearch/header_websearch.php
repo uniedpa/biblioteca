@@ -1,8 +1,18 @@
 <?php
+/*
+FirePHP
+*/
+set_include_path(dirname(dirname(__FILE__)).'/lib'.PATH_SEPARATOR.get_include_path());
+require('FirePHPCore/fb.php');
+
+/* NOTE: You must have Output Buffering enabled via
+         ob_start() or output_buffering ini directive. */
+ob_start();
+fb('Hello World'); /* Defaults to FirePHP::LOG */
 /* This file is part of a copyrighted work; it is distributed with NO WARRANTY.
  * See the file COPYRIGHT.html for more details.
-*/
-require_once("../classes/Localize.php");
+ */
+  require_once("../classes/Localize.php");
   $headerLoc = new Localize(OBIB_LOCALE,"shared");
 
 // code html tag with language attribute if specified.
@@ -114,10 +124,6 @@ function returnLookup(formName,fieldName,val) {
           <td class="title" nowrap="yes"><font class="small"><?php if (OBIB_LIBRARY_PHONE != "") echo $headerLoc->getText("headerLibraryPhone");?></font></td>
           <td class="title" nowrap="yes"><font class="small"><?php if (OBIB_LIBRARY_PHONE != "") echo H(OBIB_LIBRARY_PHONE);?></font></td>
         </tr>
-        <tr>
-          <td class="title" nowrap="yes"><font class="small">Correo Electr&oacute;nico:</font></td>
-          <td class="title" nowrap="yes"><font class="small"><a href="mailto:biblioteca@uniedpa.net">biblioteca@uniedpa.net</a></font></td>
-        </tr>
       </table>
     </td>
   </tr>
@@ -135,46 +141,26 @@ function returnLookup(formName,fieldName,val) {
 
     <td bgcolor="<?php echo H(OBIB_TITLE_BG);?>" colspan="3"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-
-    <td bgcolor="<?php echo H(OBIB_TITLE_BG);?>" colspan="3"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <td bgcolor="<?php echo H(OBIB_TITLE_BG);?>" colspan="3"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-
   </tr>
-  <tr bgcolor="<?php echo H(OBIB_TITLE_BG);?>">
-    <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
 
     <?php if ($tab == "user") { ?>
       <td  bgcolor="<?php echo H(OBIB_ALT1_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <?php } else { ?>
+    <?php } else {  ?>
       <td  bgcolor="<?php echo H(OBIB_ALT2_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <?php } ?>
-
     <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <td bgcolor="<?php echo H(OBIB_TITLE_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-
     <?php if ($tab == "opac") { ?>
       <td  bgcolor="<?php echo H(OBIB_ALT1_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <?php } else { ?>
       <td  bgcolor="<?php echo H(OBIB_ALT2_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <?php } ?>
-
     <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <td bgcolor="<?php echo H(OBIB_TITLE_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-
-    <?php if ($tab == "websearch") { ?>
-      <td  bgcolor="<?php echo H(OBIB_ALT1_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <?php } else { ?>
-      <td  bgcolor="<?php echo H(OBIB_ALT2_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <?php } ?>
-    <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <td bgcolor="<?php echo H(OBIB_TITLE_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-
     <td width="2000" bgcolor="<?php echo H(OBIB_TITLE_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
   </tr>
 
-  <tr bgcolor="<?php echo H(OBIB_TITLE_BG);?>">
     <?php if ($tab == "user") { ?>
       <td  bgcolor="<?php echo H(OBIB_ALT1_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
       <td class="tab1" nowrap="yes"> <?php echo $headerLoc->getText("headerCirculation"); ?></td>
@@ -184,7 +170,6 @@ function returnLookup(formName,fieldName,val) {
       <td class="tab2" nowrap="yes"> <a href="../user/index.php" class="tab"><?php echo $headerLoc->getText("headerCirculation"); ?></a> </td>
       <td  bgcolor="<?php echo H(OBIB_ALT2_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <?php } ?>
-
     <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
 
     <?php if ($tab == "opac") { ?>
@@ -196,31 +181,16 @@ function returnLookup(formName,fieldName,val) {
       <td class="tab2" nowrap="yes"> <a href="../opac/index.php" class="tab"><?php echo $headerLoc->getText("headerOpac"); ?></a> </td>
       <td  bgcolor="<?php echo H(OBIB_ALT2_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <?php } ?>
-
-    <td bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-
-    <?php if ($tab == "websearch") { ?>
-      <td  bgcolor="<?php echo H(OBIB_ALT1_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-      <td class="tab1" nowrap="yes"> <?php echo $headerLoc->getText("headerWebsearch"); ?></td>
-      <td  bgcolor="<?php echo H(OBIB_ALT1_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <?php } else { ?>
-      <td  bgcolor="<?php echo H(OBIB_ALT2_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-      <td class="tab2" nowrap="yes"> <a href="../websearch/index.php" class="tab"><?php echo $headerLoc->getText("headerWebsearch"); ?></a> </td>
-      <td  bgcolor="<?php echo H(OBIB_ALT2_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <?php } ?>
-
-    <td width="100%" bgcolor="<?php echo H(OBIB_TITLE_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-
+    <td width="50000" bgcolor="<?php echo H(OBIB_TITLE_BG);?>"><img src="../images/shim.gif" width="1" height="1" border="0"></td>
   </tr>
+
   <tr bgcolor="<?php echo H(OBIB_BORDER_COLOR);?>">
     <td colspan="3" <?php if ($tab == "user") { echo " bgcolor='".H(OBIB_ALT1_BG)."'"; } ?>><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <td><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <td colspan="3" <?php if ($tab == "opac") { echo " bgcolor='".H(OBIB_ALT1_BG)."'"; } ?>><img src="../images/shim.gif" width="1" height="1" border="0"></td>
+   <td colspan="3" <?php if ($tab == "opac") { echo " bgcolor='".H(OBIB_ALT1_BG)."'"; } ?>><img src="../images/shim.gif" width="1" height="1" border="0"></td>
     <td><img src="../images/shim.gif" width="1" height="1" border="0"></td>
-    <td colspan="3" <?php if ($tab == "websearch") { echo " bgcolor='".H(OBIB_ALT1_BG)."'"; } ?>><img src="../images/shim.gif" width="1" height="1" border="0"></td>
   </tr>
 </table>
-
 
 <!-- **************************************************************************************
      * Left nav
