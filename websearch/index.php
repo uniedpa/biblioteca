@@ -22,7 +22,7 @@
 <td>
 <div>
 <a href="https://scholar.google.com/" target="_blank">
-<img style="border:none;float:left;margin-right:10px;margin-top: 20px;" src="/biblioteca/images/logo-google-scholar.png"></a>
+<img style="border:none;float:left;margin-right:10px;margin-top: 20px;" src="images/logo-google-scholar.png"></a>
 <div style="float:left;width:400px;margin-top: 30px;">
 <!--"https://scholar.google.com/scholar?hl=es&q=andragog%C3%ADa&btnG=&lr=" -->
 <label for="basicSearchBox" style="font-size:8pt;font-weight:bold;color:#444444;font-family:'lucida grande',tahoma,verdana,arial,sans-serif;">Busca Art&iacute;culos y Libros en Google Acad&eacute;mico</label>
@@ -38,7 +38,7 @@
 <td>
 <div>
 <a href="http://www.scielo.org/" target="_blank">
-<img style="margin-top:10px; border:none;float:left;margin-right:10px;" src="/biblioteca/images/logo-scielo.jpg">
+<img style="margin-top:10px; border:none;float:left;margin-right:10px;" src="images/logo-scielo.jpg">
 </a>
 <div style="float:left;width:500px;margin-top:10px;">
 <label for="basicSearchBox" style="font-size:8pt;font-weight:bold;color:#444444;font-family:'lucida grande',tahoma,verdana,arial,sans-serif;">Busca en SciELO</label>
@@ -123,7 +123,7 @@
 <!-- count specifies the number of results per page -->
 <input type="hidden" name="count" value="25"/> 
 <!-- sorigin should be changed to reflect the domain name of your institution (e.g. "umich.edu" or "jstor.org")-->
-<input type="hidden" name="sorigin" value="yourdomainhere"/>
+<input type="hidden" name="sorigin" value="uniedpa.net"/>
 </form>
 </div>
 </div>
@@ -133,7 +133,7 @@
 <td>
 <div>
 <a href="http://www.redalyc.org/" target="_blank">
-<img style="margin-top:40px; border:none;float:left;margin-right:10px;" src="/biblioteca/images/logo-redalyc.png">
+<img style="margin-top:40px; border:none;float:left;margin-right:10px;" src="images/logo-redalyc.png">
 </a>
 <div style="float:left;width:500px;margin-top:20px;">
 <!--"200 cortpo 343 ancho" -->
