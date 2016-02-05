@@ -1,10 +1,10 @@
 #!/bin/bash
-if [ `date +%H:%M` == "23:59" ]
+if [ `date +%H:%M` == "12:48" ]
  then
   timestamp=$(date +%Y-%m-%d-%H.%M.%S)
   backup=`mysqldump -u $OPENSHIFT_MYSQL_DB_USERNAME  -p$OPENSHIFT_MYSQL_DB_PASSWORD biblioteca -h $OPENSHIFT_MYSQL_DB_HOST | gzip -> $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos/mysqldump-servidor-$timestamp.gz`
   upload=`$OPENSHIFT_DATA_DIR/Dropbox-Uploader/dropbox_uploader.sh -f $OPENSHIFT_DATA_DIR/.dropbox_uploader upload $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos/mysqldump-servidor-$timestamp.gz sistema/base-de-datos/mysqldump-servidor-$timestamp.gz`
   echo $timestamp $backup >> $OPENSHIFT_PHP_LOG_DIR/dbdump.log
   echo $timestamp $upload >> $OPENSHIFT_PHP_LOG_DIR/dbdump.log
-  ls $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos >> $OPENSHIFT_PHP_LOG_DIR/dbdump.log
+  rm $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos/mysqldump-servidor-$timestamp.gz`
 fi
