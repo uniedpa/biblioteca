@@ -1,8 +1,24 @@
 #!/bin/bash
-if [ `date +%M` == "05" ]
-then
- timestamp=$(date +%Y-%m-%d-%H.%M.%S)
- ls $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos > $OPENSHIFT_PHP_LOG_DIR/dbdump.log
- mysqldump -u $OPENSHIFT_MYSQL_DB_USERNAME  -p$OPENSHIFT_MYSQL_DB_PASSWORD biblioteca -h $OPENSHIFT_MYSQL_DB_HOST | gzip -> $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos/mysqldump-servidor-$timestamp.gz
- bash ${OPENSHIFT_DATA_DIR}/Dropbox-Uploader/dropbox_uploader.sh upload -q -f $OPENSHIFT_DATA_DIR/.dropbox_uploader $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos/mysqldump-servidor-$timestamp.gz sistema/base-de-datos/mysqldump-servidor-$timestamp.gz
- fi
+# We can get the
+
+minutes=$(($(date +'%s / 60')))
+hours=$(($(date +'%s / 60 / 60')))
+days=$(($(date +'%s / 60 / 60 / 24')))
+weeks=$(($(date +'%s / 60 / 60 / 24 / 7')))
+
+# or even
+
+moons=$(($(date +'%s / 60 / 60 / 24 / 656')))
+
+# passed since Epoch and define a frequency
+# let's say, every 7 hours
+
+if [[ $(($minutes % 5)) -ne 0 ]]; then
+	    exit 0
+fi
+#http://stackoverflow.com/questions/23071615/run-cron-job-every-5-minutes-on-openshift-red-hat-cloud
+timestamp=$(date +%Y-%m-%d-%H.%M.%S)
+ls $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos > $OPENSHIFT_PHP_LOG_DIR/dbdump.log
+mysqldump -u $OPENSHIFT_MYSQL_DB_USERNAME  -p$OPENSHIFT_MYSQL_DB_PASSWORD biblioteca -h $OPENSHIFT_MYSQL_DB_HOST | gzip -> $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos/mysqldump-servidor-$timestamp.gz
+bash ${OPENSHIFT_DATA_DIR}/Dropbox-Uploader/dropbox_uploader.sh upload -q -f $OPENSHIFT_DATA_DIR/.dropbox_uploader $OPENSHIFT_DATA_DIR/Dropbox/sistema/base-de-datos/mysqldump-servidor-$timestamp.gz sistema/base-de-datos/mysqldump-servidor-$timestamp.gz
+
