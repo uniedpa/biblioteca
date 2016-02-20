@@ -1,0 +1,16 @@
+.title "Por Etiquetar"
+.column call_nmbr1
+.column call_nmbr2
+.column call_nmbr3
+.column title
+.column bibid func=biblio_link 
+.parameters
+.    order_by
+.        item title
+.    end
+.end
+.sql
+    SELECT biblio.bibid,biblio.call_nmbr1, biblio.call_nmbr2, biblio.call_nmbr3,biblio.title FROM biblio
+    WHERE biblio.bibid in (SELECT bibid FROM biblio_copy WHERE copy_desc = 'Por etiquetar')
+.	order_by_expr
+.end
