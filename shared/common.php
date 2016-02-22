@@ -118,8 +118,8 @@
     /* Making session user info available on all pages. */
     /* OEVL 2016-02-22 per http://stackoverflow.com/questions/19215637/navigate-back-with-php-form-submission */
     /* Fixes browser error while using back button from search */
-    header('Cache-Control: no-cache'); //no cache
-    session_cache_limiter('private_no_expire');
+    /* header('Cache-Control: no-cache'); //no cache */
+    /* session_cache_limiter('private_no_expire'); */
     session_start();
     # Forcibly disable register_globals
     if (ini_get('register_globals')) {
