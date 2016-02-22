@@ -10,7 +10,8 @@
 .    end
 .end
 .sql
-    SELECT biblio.bibid,biblio.call_nmbr1, biblio.call_nmbr2, biblio.call_nmbr3,biblio.title FROM biblio
+    SELECT biblio.bibid,biblio.call_nmbr1, biblio.call_nmbr2, biblio.call_nmbr3,concat(biblio.title,' ',biblio.title_remainder) title
+    FROM biblio
     WHERE biblio.bibid in (SELECT bibid FROM biblio_copy WHERE copy_desc = 'Por etiquetar')
 .	order_by_expr
 .end
