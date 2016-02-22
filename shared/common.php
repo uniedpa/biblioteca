@@ -120,6 +120,7 @@
     /* Fixes browser error while using back button from search */
     /* header('Cache-Control: no-cache'); //no cache */
     /* session_cache_limiter('private_no_expire'); */
+    session_cache_limiter('private, must-revalidate');
     session_start();
     # Forcibly disable register_globals
     if (ini_get('register_globals')) {
