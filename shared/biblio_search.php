@@ -1,3 +1,4 @@
+
 <?php
 /* This file is part of a copyrighted work; it is distributed with NO WARRANTY.
  * See the file COPYRIGHT.html for more details.
@@ -223,22 +224,22 @@ function changePage(page,sort)
     ************************************************************************** -->
       
 <form name="changePageForm" method="POST" action="../shared/biblio_search.php<?php echo isset($_REQUEST['tag']) ? '?tag=' . $_REQUEST['tag'] . '&words=' . $_REQUEST['words'] : ''?>">
-  <input type="hidden" name="searchType"		value="<?php echo H($_REQUEST["searchType"]);?>">
-  <input type="hidden" name="searchText"		value="<?php echo H($_REQUEST["searchText"]);?>">
-  <input type="hidden" name="keyword_type_1"	value="<?php echo H($_REQUEST["keyword_type_1"]);?>">
-  <input type="hidden" name="keyword_text_1"	value="<?php echo H($_REQUEST["keyword_text_1"]);?>">  
-  <input type="hidden" name="expression_2"	value="<?php echo H($_REQUEST["expression_2"]);?>">
-  <input type="hidden" name="keyword_type_2"	value="<?php echo H($_REQUEST["keyword_type_2"]);?>">  
-  <input type="hidden" name="keyword_text_2"	value="<?php echo H($_REQUEST["keyword_text_2"]);?>">
-  <input type="hidden" name="publishedYear"	value="<?php echo H($_REQUEST["publishedYear"]);?>">
-  <input type="hidden" name="language"			value="<?php echo H($_REQUEST["language"]);?>">
-  <input type="hidden" name="materialCd"		value="<?php echo H($_REQUEST["materialCd"]);?>">
-  <input type="hidden" name="collectionCd"	value="<?php echo H($_REQUEST["collectionCd"]);?>">  
-<!--   <input type="hidden" name="lookup"		value="<?php echo H($_REQUEST["lookup"]);?>">  -->
-  <input type="hidden" name="sortBy"			value="<?php echo H($_REQUEST["sortBy"]);?>">
-  <input type="hidden" name="lookup"			value="<?php echo H($lookup);?>">
-  <input type="hidden" name="page"				value="1">
-  <input type="hidden" name="tab"				value="<?php echo H($tab);?>">
+  <input type="hidden" name="searchType"    value="<?php echo H($_REQUEST["searchType"]);?>">
+  <input type="hidden" name="searchText"    value="<?php echo H($_REQUEST["searchText"]);?>">
+  <input type="hidden" name="keyword_type_1"  value="<?php echo H($_REQUEST["keyword_type_1"]);?>">
+  <input type="hidden" name="keyword_text_1"  value="<?php echo H($_REQUEST["keyword_text_1"]);?>">  
+  <input type="hidden" name="expression_2"  value="<?php echo H($_REQUEST["expression_2"]);?>">
+  <input type="hidden" name="keyword_type_2"  value="<?php echo H($_REQUEST["keyword_type_2"]);?>">  
+  <input type="hidden" name="keyword_text_2"  value="<?php echo H($_REQUEST["keyword_text_2"]);?>">
+  <input type="hidden" name="publishedYear" value="<?php echo H($_REQUEST["publishedYear"]);?>">
+  <input type="hidden" name="language"      value="<?php echo H($_REQUEST["language"]);?>">
+  <input type="hidden" name="materialCd"    value="<?php echo H($_REQUEST["materialCd"]);?>">
+  <input type="hidden" name="collectionCd"  value="<?php echo H($_REQUEST["collectionCd"]);?>">  
+<!--   <input type="hidden" name="lookup"   value="<?php echo H($_REQUEST["lookup"]);?>">  -->
+  <input type="hidden" name="sortBy"      value="<?php echo H($_REQUEST["sortBy"]);?>">
+  <input type="hidden" name="lookup"      value="<?php echo H($lookup);?>">
+  <input type="hidden" name="page"        value="1">
+  <input type="hidden" name="tab"       value="<?php echo H($tab);?>">
 </form>
 
 <!--**************************************************************************
@@ -283,7 +284,7 @@ function changePage(page,sort)
       <a href="../shared/biblio_view.php?bibid=<?php echo HURL($biblio->getBibid());?>&amp;tab=<?php echo HURL($tab);?>">
       <img src="../images/<?php echo HURL($materialImageFiles[$biblio->getMaterialCd()]);?>" width="20" height="20" border="0" align="bottom" alt="<?php echo H($materialTypeDm[$biblio->getMaterialCd()]);?>"></a>
     </td>
-	
+  
 <?php 
 
   #****************************************************************************
@@ -361,29 +362,42 @@ function changePage(page,sort)
   }
   $LbiblioFlds = $Lbiblio->getBiblioFields();
 // hasta aqui la modificacion para la busqueda de valores marc, ya que la portada se guarda en marc 902a
-  ?>
+// 
+require_once('../classes/BiblioCopyQuery.php');
+    $copyQ = new BiblioCopyQuery();
+    $copyQ->connect();
+    if ($copyQ->errorOccurred()) {
+      $copyQ->close();
+      displayErrorPage($copyQ);
+    }
+    if (!$copy = $copyQ->execSelect($biblio->getBibid())) {
+      $copyQ->close();
+      displayErrorPage($copyQ);
+    }
+//
+?>
 
 <!--**************************************************************************
     *  Mostrar foto de autores joanlga@hotmail.com  campo marc 902c
     ************************************************************************** -->
   <td nowrap="true" class="primary" valign="top" align="center" rowspan="2">
 <?php if ( isset($LbiblioFlds['902c']) ) {  //determina si tiene foto el autor?>
-	<a href="
+  <a href="
 <?php $filisb = ".." . AUTOR_PATH . "/" . $LbiblioFlds["902c"]->getFieldData() ;
               if (file_exists($filisb)){
-					echo $filisb; // local
-		     } else {
-				  	 echo $LbiblioFlds["902c"]->getFieldData(); // nube
- 			} ?>"
- 			 target="_blank" >
+          echo $filisb; // local
+         } else {
+             echo $LbiblioFlds["902c"]->getFieldData(); // nube
+      } ?>"
+       target="_blank" >
 
    <img src="<?php 
  $filisb = ".." . AUTOR_PATH . "/" . $LbiblioFlds["902c"]->getFieldData() ;
               if (file_exists($filisb)){
-					echo $filisb; // local
-		     } else {
-				  	 echo $LbiblioFlds["902c"]->getFieldData(); // nube
- 			} 
+          echo $filisb; // local
+         } else {
+             echo $LbiblioFlds["902c"]->getFieldData(); // nube
+      } 
        ?>"
                width="100" 
               border="1" 
@@ -405,28 +419,28 @@ $Ruta_Autor = ".." . AUTOR_PATH . "/" . H($biblio->getAuthor());
                      echo $Ruta_Autor .".gif";
               }else{
            if (is_file( $Ruta_Autor .".png")) {
-		    echo $Ruta_Autor .".png";
+        echo $Ruta_Autor .".png";
                    }else{
-		    echo ".." . AUTOR_PATH . "/" . "No_foto.png" ; 
+        echo ".." . AUTOR_PATH . "/" . "No_foto.png" ; 
                     }  } } 
                            ?> 
       " target="_blank">
    <img src="<?php 
-   		if (isset($LbiblioFlds["902c"])) {
+      if (isset($LbiblioFlds["902c"])) {
                      echo "../" . AUTOR_PATH . "/" . $LbiblioFlds["902c"]->getFieldData();
-	          }  else { 
-     	       if (is_file( $Ruta_Autor .".jpg")) {
-          	           echo $Ruta_Autor .".jpg";
-	           }else{
-     		       if (is_file( $Ruta_Autor.".gif")) {
-               	      echo $Ruta_Autor .".gif";
-	              }else{
-     			      if (is_file( $Ruta_Autor .".png")) {
-			              echo $Ruta_Autor .".png";
-               	    }else{
-			   			   echo "../" . AUTOR_PATH . "/" . "No_foto.png"; 
-             		       }
-             		  }
+            }  else { 
+             if (is_file( $Ruta_Autor .".jpg")) {
+                       echo $Ruta_Autor .".jpg";
+             }else{
+               if (is_file( $Ruta_Autor.".gif")) {
+                      echo $Ruta_Autor .".gif";
+                }else{
+                if (is_file( $Ruta_Autor .".png")) {
+                    echo $Ruta_Autor .".png";
+                    }else{
+                 echo "../" . AUTOR_PATH . "/" . "No_foto.png"; 
+                       }
+                  }
               }
             }
                            ?>"
@@ -476,6 +490,15 @@ $Ruta_Autor = ".." . AUTOR_PATH . "/" . H($biblio->getAuthor());
           <td class="noborder" colspan="3"><font class="small"><?php echo H($collectionDm[$biblio->getCollectionCd()]);?></font></td>
         </tr>
         <tr>
+<!-- 2016-05-18 OEVL para mostrar la ubicación de la obra en las secciones -->
+        <tr>
+        <td class="noborder" valign="top"><font class="small"><b><?php echo "Ubicaci&oacute;n"; ?>:</b></font></td>
+        <td class="noborder" colspan="3"><font class="small"> 
+       <!--  <?php $copy = $copyQ->fetchCopy(); $CopyDesc=$copy->getCopyDesc(); echo $CopyDesc; ?> -->
+       <?php if (isset($LbiblioFlds["852c"])) {echo($LbiblioFlds["852c"]->getFieldData());} else {$copyDesc=$copy->getCopyDesc();echo $copyDesc;}; ?>
+        </font></td>
+        </tr>
+<!-- -->
           <td class="noborder" valign="top" nowrap="yes"><font class="small"><b><?php echo $loc->getText("biblioSearchCall"); ?>:</b></font></td>
           <td class="noborder" colspan="3"><font class="small"><?php echo H($biblio->getCallNmbr1()." ".$biblio->getCallNmbr2()." ".$biblio->getCallNmbr3());?></font></td>
         </tr>
@@ -492,15 +515,15 @@ if (isset($LbiblioFlds["903a"])) {  //determina si es material digital?>
   <td class="noborder"  colspan="3">
          <a href="<?php $filisb = '../' . DIGI_PATH . '/'. addslashes ($LbiblioFlds["903a"]->getFieldData());
               if (file_exists($filisb)){
-					echo $filisb; // local
-		     } else {
-				  	 echo $LbiblioFlds["903a"]->getFieldData(); // nube
- 			} ?>" target="_blank">  
+          echo $filisb; // local
+         } else {
+             echo $LbiblioFlds["903a"]->getFieldData(); // nube
+      } ?>" target="_blank">  
                 <?php echo substr($LbiblioFlds["903a"]->getFieldData(),0,50);?></a>
      </td>                
 <?php } ?>
         </tr>
-	</table>
+  </table>
 
 <!--**************************************************************************
     *  Printing result table de opendream para portadas
@@ -517,39 +540,39 @@ if (isset($LbiblioFlds["903a"])) {  //determina si es material digital?>
       ?>
       <a href="<?php echo $filepath ?>" title="<?php echo $title ?>" target="_blank">
       <img src="<?php echo $thumbpath ?>" border="0" title="<?php echo $title ?>" 
-		alt="<?php echo $title ?>" style="padding: 3px;" /></a>
-      <?php 	  endif;
-	} else{       ?>
+    alt="<?php echo $title ?>" style="padding: 3px;" /></a>
+      <?php     endif;
+  } else{       ?>
   
   
    <img src="
 <?php if (isset($LbiblioFlds["902a"])) {
-			echo $LbiblioFlds["902a"]->getFieldData()  ;
-		} else { //determina si el  file estaa
-			$Ruta_File= "../" . COVER_PATH . "/" .  H($biblio->getAuthor())."-".H($biblio->getTitle());
-			if (is_file( $Ruta_File .".jpg")) {
-				echo  $Ruta_File.".jpg";
-			}else{
-				if (is_file( $Ruta_File .".gif")) {
-					echo  $Ruta_File .".gif";
-				}else{
-					if (is_file( $Ruta_File .".png")) {
-						echo  $Ruta_File .".png";
-					}else{	
-					      echo "../" . COVER_PATH . "/" . "No_foto.png"; 
-					} 
-				}
-			}
-		}
+      echo $LbiblioFlds["902a"]->getFieldData()  ;
+    } else { //determina si el  file estaa
+      $Ruta_File= "../" . COVER_PATH . "/" .  H($biblio->getAuthor())."-".H($biblio->getTitle());
+      if (is_file( $Ruta_File .".jpg")) {
+        echo  $Ruta_File.".jpg";
+      }else{
+        if (is_file( $Ruta_File .".gif")) {
+          echo  $Ruta_File .".gif";
+        }else{
+          if (is_file( $Ruta_File .".png")) {
+            echo  $Ruta_File .".png";
+          }else{  
+                echo "../" . COVER_PATH . "/" . "No_foto.png"; 
+          } 
+        }
+      }
+    }
 
 ?>  "
-	width="150" 
-	border="1" 
-	align="bottom" 
-	title="Imagen no encontrada"
+  width="150" 
+  border="1" 
+  align="bottom" 
+  title="Imagen no encontrada"
      alt=  "Dar clip para descargar"     
          >  </a>
-<?php 	}?>
+<?php   }?>
     </td>
 
 <!--**************************************************************************
@@ -557,7 +580,7 @@ if (isset($LbiblioFlds["903a"])) {  //determina si es material digital?>
     *   Modificado por jose lara joanlaga@hotmail.com para mostrar foto de portada cuando no es capturada
     ************************************************************************** -->
   <?php
-    require_once('../classes/BiblioCopyQuery.php');
+    //require_once('../classes/BiblioCopyQuery.php');
     $copyQ = new BiblioCopyQuery();
     $copyQ->connect();
     if ($copyQ->errorOccurred()) {
