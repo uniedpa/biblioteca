@@ -56,3 +56,4 @@ $trans["opac_Search"]        = "\$text='Buscar';";
 
 #* No estan en Openbiblio 7.1 adecuacion por jalg joanlga@hotmail.com
 $trans["opac_ISBN"]        = "\$text='ISBN';";
+$trans["opac_Language"]        = "\$text='Idioma';";
