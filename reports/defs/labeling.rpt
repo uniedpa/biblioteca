@@ -1,17 +1,15 @@
+.category Cataloging
 .title "Por Etiquetar"
-.column call_nmbr1
-.column call_nmbr2
-.column call_nmbr3
+.column label
+.column codigo
 .column title
 .column bibid func=biblio_link 
 .parameters
 .    order_by
-.        item title
+.        item label
 .    end
 .end
 .sql
-    SELECT biblio.bibid,biblio.call_nmbr1, biblio.call_nmbr2, biblio.call_nmbr3,concat(biblio.title,' - ',biblio.title_remainder) title
-    FROM biblio
-    WHERE biblio.bibid in (SELECT bibid FROM biblio_copy WHERE copy_desc = 'Por etiquetar')
+    SELECT biblio.bibid, concat_ws('\n',biblio.call_nmbr1,biblio.call_nmbr2,biblio.call_nmbr3) label ,concat(biblio.title,' - ',biblio.title_remainder) title , biblio_copy.barcode_nmbr codigo FROM biblio, biblio_copy WHERE biblio_copy.bibid in (SELECT biblio_copy.bibid FROM biblio_copy WHERE copy_desc = 'Por etiquetar' OR status_cd=10 ) AND biblio.bibid=biblio_copy.bibid 
 .	order_by_expr
 .end
