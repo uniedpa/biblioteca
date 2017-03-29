@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^apple/(.*) folder1/$1
+RewriteRule ^blog/(.*) front/$1
