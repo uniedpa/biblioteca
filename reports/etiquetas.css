@@ -1,0 +1,32 @@
+html {
+  font-family: 'Arial Narrow', helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-stretch: condensed;
+}
+table {
+  page-break-inside:auto;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+tr {
+	page-break-inside:avoid;
+	page-break-after:auto;
+}
+td {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 10pt;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  border: solid 1px #000000;
+  padding: 0px;
+}
+
+
+@media print { 
+ /* All your print styles go here */
+ .bibid { display: none !important; } 
+}
+
