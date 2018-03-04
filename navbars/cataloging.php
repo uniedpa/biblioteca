@@ -419,7 +419,7 @@
    <a href="../catalog/ibic.php" class="alt1"><?php echo $navLoc->getText("ibic");?></a>
  </li>
 <?php } ?>
-<?php if ($nav == "cutter") { ?>
+<?php if ($nav =="cutter") { ?>
  <li class="active">
    <?php echo $navLoc->getText("cutter");?>
  </li>
