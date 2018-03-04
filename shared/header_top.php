@@ -9,7 +9,7 @@
   $headerLoc = new Localize(OBIB_LOCALE,"shared");
 
 // code html tag with language attribute if specified.
-echo "<html";
+  echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Frameset//EN\"><html";
 if (OBIB_HTML_LANG_ATTR != "") {
   echo " lang=\"".H(OBIB_HTML_LANG_ATTR)."\"";
 }

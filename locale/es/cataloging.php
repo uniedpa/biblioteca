@@ -463,6 +463,17 @@ $trans["cutterindexSearch"]		= "\$text = 'Generar';";
 $trans["cutterOtra"]					= "\$text = 'Nueva Búsqueda Cutter-Sanborn';";
 
 #****************************************************************************
+#* Translation text for labels
+#****************************************************************************
+$trans["cutterBidSearchResults"]	= "\$text = 'Registro';";
+$trans["cutterindexHeading"]		= "\$text = 'Generar libistica Cutter-Sanborn 3 cifras (Ver 1.0)';";
+$trans["cutterindexNameHdr"]		= "\$text = 'Generar libistica cutter';";
+$trans["cutterindexName"]			= "\$text = 'Cutter-Sanborn 3 cifras';";
+$trans["cutterindexSearch"]		= "\$text = 'Generar';";
+$trans["cutterOtra"]					= "\$text = 'Nueva Búsqueda Cutter-Sanborn';";
+
+
+#****************************************************************************
 #*  Translation text for page upload_csv(_form).php
 #****************************************************************************
 $trans["CSVloadHeader"]            = "\$text = 'Importar copias bibliográficas desde archivo CSV';";
@@ -525,3 +536,4 @@ $trans["biblioSearchNoResults"]              = "\$text = ' No se encontraron reg
 #* Translation text for page marc_list.php ,  marc_select.php, marc_add_form.php marc_add.php 
 #****************************************************************************
 $trans["usmarcSelectInst"]	= "\$text = 'Listado de campos marc';";
+$trans["resources"] = "\$text = 'Recursos';";

@@ -1,0 +1,561 @@
+[Wed Jun 14 01:36:36.970061 2017] [lbmethod_heartbeat:notice] [pid 39:tid 140692434320200] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:36.970308 2017] [proxy_balancer:emerg] [pid 39:tid 140692434320200] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:36.970326 2017] [:emerg] [pid 39:tid 140692434320200] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:38.073133 2017] [lbmethod_heartbeat:notice] [pid 44:tid 140661138754376] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:38.073308 2017] [proxy_balancer:emerg] [pid 44:tid 140661138754376] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:38.073326 2017] [:emerg] [pid 44:tid 140661138754376] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:39.179886 2017] [lbmethod_heartbeat:notice] [pid 45:tid 139664905947976] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:39.180077 2017] [proxy_balancer:emerg] [pid 45:tid 139664905947976] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:39.180133 2017] [:emerg] [pid 45:tid 139664905947976] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:40.298995 2017] [lbmethod_heartbeat:notice] [pid 46:tid 140259230677832] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:40.299216 2017] [proxy_balancer:emerg] [pid 46:tid 140259230677832] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:40.299234 2017] [:emerg] [pid 46:tid 140259230677832] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:41.428879 2017] [lbmethod_heartbeat:notice] [pid 47:tid 140484139735880] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:41.429141 2017] [proxy_balancer:emerg] [pid 47:tid 140484139735880] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:41.429162 2017] [:emerg] [pid 47:tid 140484139735880] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:42.514746 2017] [lbmethod_heartbeat:notice] [pid 52:tid 140454285343560] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:42.514928 2017] [proxy_balancer:emerg] [pid 52:tid 140454285343560] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:42.514945 2017] [:emerg] [pid 52:tid 140454285343560] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:43.596834 2017] [lbmethod_heartbeat:notice] [pid 53:tid 140312249748296] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:43.597042 2017] [proxy_balancer:emerg] [pid 53:tid 140312249748296] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:43.597060 2017] [:emerg] [pid 53:tid 140312249748296] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:44.706874 2017] [lbmethod_heartbeat:notice] [pid 54:tid 140248967576392] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:44.707062 2017] [proxy_balancer:emerg] [pid 54:tid 140248967576392] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:44.707080 2017] [:emerg] [pid 54:tid 140248967576392] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:45.814673 2017] [lbmethod_heartbeat:notice] [pid 55:tid 139870290312008] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:45.814858 2017] [proxy_balancer:emerg] [pid 55:tid 139870290312008] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:45.814915 2017] [:emerg] [pid 55:tid 139870290312008] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:46.900225 2017] [lbmethod_heartbeat:notice] [pid 56:tid 139757137357640] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:46.900409 2017] [proxy_balancer:emerg] [pid 56:tid 139757137357640] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:46.900427 2017] [:emerg] [pid 56:tid 139757137357640] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:48.030551 2017] [lbmethod_heartbeat:notice] [pid 57:tid 140380609235784] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:48.030730 2017] [proxy_balancer:emerg] [pid 57:tid 140380609235784] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:48.030748 2017] [:emerg] [pid 57:tid 140380609235784] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:49.139424 2017] [lbmethod_heartbeat:notice] [pid 58:tid 139737599413064] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:49.139615 2017] [proxy_balancer:emerg] [pid 58:tid 139737599413064] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:49.139633 2017] [:emerg] [pid 58:tid 139737599413064] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:50.256870 2017] [lbmethod_heartbeat:notice] [pid 59:tid 140565369629512] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:50.257055 2017] [proxy_balancer:emerg] [pid 59:tid 140565369629512] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:50.257073 2017] [:emerg] [pid 59:tid 140565369629512] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:51.373543 2017] [lbmethod_heartbeat:notice] [pid 60:tid 140671153560392] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:51.373726 2017] [proxy_balancer:emerg] [pid 60:tid 140671153560392] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:51.373744 2017] [:emerg] [pid 60:tid 140671153560392] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:52.465367 2017] [lbmethod_heartbeat:notice] [pid 61:tid 140067385060168] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:52.465557 2017] [proxy_balancer:emerg] [pid 61:tid 140067385060168] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:52.465576 2017] [:emerg] [pid 61:tid 140067385060168] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:53.548984 2017] [lbmethod_heartbeat:notice] [pid 62:tid 140711149337416] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:53.549190 2017] [proxy_balancer:emerg] [pid 62:tid 140711149337416] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:53.549209 2017] [:emerg] [pid 62:tid 140711149337416] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:54.659473 2017] [lbmethod_heartbeat:notice] [pid 63:tid 140007491418952] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:54.659693 2017] [proxy_balancer:emerg] [pid 63:tid 140007491418952] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:54.659710 2017] [:emerg] [pid 63:tid 140007491418952] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:55.753441 2017] [lbmethod_heartbeat:notice] [pid 64:tid 140489654795080] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:55.753621 2017] [proxy_balancer:emerg] [pid 64:tid 140489654795080] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:55.753676 2017] [:emerg] [pid 64:tid 140489654795080] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:56.846045 2017] [lbmethod_heartbeat:notice] [pid 65:tid 140660153715528] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:56.846436 2017] [proxy_balancer:emerg] [pid 65:tid 140660153715528] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:56.846454 2017] [:emerg] [pid 65:tid 140660153715528] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:57.974385 2017] [lbmethod_heartbeat:notice] [pid 66:tid 140212372826952] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:57.974577 2017] [proxy_balancer:emerg] [pid 66:tid 140212372826952] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:57.974595 2017] [:emerg] [pid 66:tid 140212372826952] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:36:59.100653 2017] [lbmethod_heartbeat:notice] [pid 67:tid 139973706062664] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:36:59.100856 2017] [proxy_balancer:emerg] [pid 67:tid 139973706062664] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:36:59.100874 2017] [:emerg] [pid 67:tid 139973706062664] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:00.212951 2017] [lbmethod_heartbeat:notice] [pid 68:tid 140387139889992] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:00.213202 2017] [proxy_balancer:emerg] [pid 68:tid 140387139889992] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:00.213222 2017] [:emerg] [pid 68:tid 140387139889992] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:01.299379 2017] [lbmethod_heartbeat:notice] [pid 69:tid 140349760002888] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:01.299565 2017] [proxy_balancer:emerg] [pid 69:tid 140349760002888] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:01.299583 2017] [:emerg] [pid 69:tid 140349760002888] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:02.385001 2017] [lbmethod_heartbeat:notice] [pid 70:tid 140652144921416] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:02.385192 2017] [proxy_balancer:emerg] [pid 70:tid 140652144921416] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:02.385210 2017] [:emerg] [pid 70:tid 140652144921416] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:03.480957 2017] [lbmethod_heartbeat:notice] [pid 71:tid 139892402842440] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:03.481160 2017] [proxy_balancer:emerg] [pid 71:tid 139892402842440] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:03.481180 2017] [:emerg] [pid 71:tid 139892402842440] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:04.566208 2017] [lbmethod_heartbeat:notice] [pid 72:tid 140619792767816] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:04.566385 2017] [proxy_balancer:emerg] [pid 72:tid 140619792767816] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:04.566402 2017] [:emerg] [pid 72:tid 140619792767816] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:05.669968 2017] [lbmethod_heartbeat:notice] [pid 73:tid 139663169841992] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:05.670232 2017] [proxy_balancer:emerg] [pid 73:tid 139663169841992] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:05.670251 2017] [:emerg] [pid 73:tid 139663169841992] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:06.760038 2017] [lbmethod_heartbeat:notice] [pid 74:tid 140008254655304] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:06.760311 2017] [proxy_balancer:emerg] [pid 74:tid 140008254655304] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:06.760329 2017] [:emerg] [pid 74:tid 140008254655304] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:07.855157 2017] [lbmethod_heartbeat:notice] [pid 75:tid 140553879321416] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:07.855344 2017] [proxy_balancer:emerg] [pid 75:tid 140553879321416] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:07.855364 2017] [:emerg] [pid 75:tid 140553879321416] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:08.949714 2017] [lbmethod_heartbeat:notice] [pid 76:tid 140103442762568] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:08.949907 2017] [proxy_balancer:emerg] [pid 76:tid 140103442762568] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:08.949926 2017] [:emerg] [pid 76:tid 140103442762568] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:10.046737 2017] [lbmethod_heartbeat:notice] [pid 77:tid 140366189284168] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:10.046985 2017] [proxy_balancer:emerg] [pid 77:tid 140366189284168] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:10.047005 2017] [:emerg] [pid 77:tid 140366189284168] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:11.184319 2017] [lbmethod_heartbeat:notice] [pid 78:tid 139930761136968] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:11.184544 2017] [proxy_balancer:emerg] [pid 78:tid 139930761136968] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:11.184563 2017] [:emerg] [pid 78:tid 139930761136968] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:12.273780 2017] [lbmethod_heartbeat:notice] [pid 79:tid 139624727194440] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:12.273957 2017] [proxy_balancer:emerg] [pid 79:tid 139624727194440] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:12.273976 2017] [:emerg] [pid 79:tid 139624727194440] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:13.374431 2017] [lbmethod_heartbeat:notice] [pid 80:tid 139778584296264] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:13.374631 2017] [proxy_balancer:emerg] [pid 80:tid 139778584296264] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:13.374649 2017] [:emerg] [pid 80:tid 139778584296264] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:14.460106 2017] [lbmethod_heartbeat:notice] [pid 81:tid 140218733509448] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:14.460335 2017] [proxy_balancer:emerg] [pid 81:tid 140218733509448] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:14.460353 2017] [:emerg] [pid 81:tid 140218733509448] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:15.572810 2017] [lbmethod_heartbeat:notice] [pid 82:tid 140580555586376] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:15.573023 2017] [proxy_balancer:emerg] [pid 82:tid 140580555586376] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:15.573040 2017] [:emerg] [pid 82:tid 140580555586376] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:16.682050 2017] [lbmethod_heartbeat:notice] [pid 83:tid 140530695097160] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:16.682289 2017] [proxy_balancer:emerg] [pid 83:tid 140530695097160] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:16.682308 2017] [:emerg] [pid 83:tid 140530695097160] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:17.769702 2017] [lbmethod_heartbeat:notice] [pid 84:tid 140354762586952] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:17.769892 2017] [proxy_balancer:emerg] [pid 84:tid 140354762586952] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:17.769909 2017] [:emerg] [pid 84:tid 140354762586952] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:18.859429 2017] [lbmethod_heartbeat:notice] [pid 85:tid 140319761861448] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:18.859608 2017] [proxy_balancer:emerg] [pid 85:tid 140319761861448] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:18.859627 2017] [:emerg] [pid 85:tid 140319761861448] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:19.967303 2017] [lbmethod_heartbeat:notice] [pid 86:tid 139946855164744] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:19.967481 2017] [proxy_balancer:emerg] [pid 86:tid 139946855164744] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:19.967498 2017] [:emerg] [pid 86:tid 139946855164744] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:21.095726 2017] [lbmethod_heartbeat:notice] [pid 87:tid 140172324006728] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:21.095952 2017] [proxy_balancer:emerg] [pid 87:tid 140172324006728] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:21.095969 2017] [:emerg] [pid 87:tid 140172324006728] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:22.185321 2017] [lbmethod_heartbeat:notice] [pid 88:tid 140004333472584] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:22.185499 2017] [proxy_balancer:emerg] [pid 88:tid 140004333472584] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:22.185516 2017] [:emerg] [pid 88:tid 140004333472584] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:23.313340 2017] [lbmethod_heartbeat:notice] [pid 89:tid 140578934405960] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:23.313533 2017] [proxy_balancer:emerg] [pid 89:tid 140578934405960] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:23.313552 2017] [:emerg] [pid 89:tid 140578934405960] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:24.402082 2017] [lbmethod_heartbeat:notice] [pid 90:tid 139952324709192] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:24.402318 2017] [proxy_balancer:emerg] [pid 90:tid 139952324709192] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:24.402371 2017] [:emerg] [pid 90:tid 139952324709192] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:25.490359 2017] [lbmethod_heartbeat:notice] [pid 91:tid 140557191727944] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:25.490541 2017] [proxy_balancer:emerg] [pid 91:tid 140557191727944] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:25.490557 2017] [:emerg] [pid 91:tid 140557191727944] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:26.572542 2017] [lbmethod_heartbeat:notice] [pid 92:tid 140191859465032] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:26.572729 2017] [proxy_balancer:emerg] [pid 92:tid 140191859465032] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:26.572747 2017] [:emerg] [pid 92:tid 140191859465032] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:27.692700 2017] [lbmethod_heartbeat:notice] [pid 93:tid 140210215430984] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:27.692878 2017] [proxy_balancer:emerg] [pid 93:tid 140210215430984] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:27.692897 2017] [:emerg] [pid 93:tid 140210215430984] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:28.784963 2017] [lbmethod_heartbeat:notice] [pid 94:tid 140150758603592] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:28.785208 2017] [proxy_balancer:emerg] [pid 94:tid 140150758603592] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:28.785227 2017] [:emerg] [pid 94:tid 140150758603592] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:29.871309 2017] [lbmethod_heartbeat:notice] [pid 95:tid 140514066053960] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:29.871493 2017] [proxy_balancer:emerg] [pid 95:tid 140514066053960] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:29.871511 2017] [:emerg] [pid 95:tid 140514066053960] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:30.966613 2017] [lbmethod_heartbeat:notice] [pid 96:tid 140109447441224] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:30.969914 2017] [proxy_balancer:emerg] [pid 96:tid 140109447441224] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:30.969970 2017] [:emerg] [pid 96:tid 140109447441224] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:32.054867 2017] [lbmethod_heartbeat:notice] [pid 97:tid 140664517745480] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:32.055057 2017] [proxy_balancer:emerg] [pid 97:tid 140664517745480] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:32.055075 2017] [:emerg] [pid 97:tid 140664517745480] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:33.139077 2017] [lbmethod_heartbeat:notice] [pid 98:tid 140100703316808] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:33.139307 2017] [proxy_balancer:emerg] [pid 98:tid 140100703316808] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:33.139325 2017] [:emerg] [pid 98:tid 140100703316808] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:34.235813 2017] [lbmethod_heartbeat:notice] [pid 99:tid 139767122926408] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:34.235995 2017] [proxy_balancer:emerg] [pid 99:tid 139767122926408] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:34.236048 2017] [:emerg] [pid 99:tid 139767122926408] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:35.334528 2017] [lbmethod_heartbeat:notice] [pid 100:tid 140656860945224] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:35.334715 2017] [proxy_balancer:emerg] [pid 100:tid 140656860945224] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:35.334734 2017] [:emerg] [pid 100:tid 140656860945224] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:36.418755 2017] [lbmethod_heartbeat:notice] [pid 101:tid 140208984316744] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:36.420730 2017] [proxy_balancer:emerg] [pid 101:tid 140208984316744] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:36.420797 2017] [:emerg] [pid 101:tid 140208984316744] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:37.505492 2017] [lbmethod_heartbeat:notice] [pid 102:tid 140084379831112] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:37.505689 2017] [proxy_balancer:emerg] [pid 102:tid 140084379831112] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:37.505707 2017] [:emerg] [pid 102:tid 140084379831112] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:38.604493 2017] [lbmethod_heartbeat:notice] [pid 103:tid 139965779303240] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:38.604664 2017] [proxy_balancer:emerg] [pid 103:tid 139965779303240] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:38.604683 2017] [:emerg] [pid 103:tid 139965779303240] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:39.716517 2017] [lbmethod_heartbeat:notice] [pid 104:tid 140501957258056] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:39.716755 2017] [proxy_balancer:emerg] [pid 104:tid 140501957258056] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:39.716773 2017] [:emerg] [pid 104:tid 140501957258056] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:40.804238 2017] [lbmethod_heartbeat:notice] [pid 105:tid 139732590951240] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:40.804424 2017] [proxy_balancer:emerg] [pid 105:tid 139732590951240] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:40.804442 2017] [:emerg] [pid 105:tid 139732590951240] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:41.923195 2017] [lbmethod_heartbeat:notice] [pid 106:tid 140418919312200] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:41.923431 2017] [proxy_balancer:emerg] [pid 106:tid 140418919312200] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:41.923466 2017] [:emerg] [pid 106:tid 140418919312200] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:43.012120 2017] [lbmethod_heartbeat:notice] [pid 107:tid 139866469526344] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:43.012297 2017] [proxy_balancer:emerg] [pid 107:tid 139866469526344] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:43.012319 2017] [:emerg] [pid 107:tid 139866469526344] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:44.117035 2017] [lbmethod_heartbeat:notice] [pid 108:tid 140509993339720] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:44.117270 2017] [proxy_balancer:emerg] [pid 108:tid 140509993339720] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:44.117288 2017] [:emerg] [pid 108:tid 140509993339720] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:45.213597 2017] [lbmethod_heartbeat:notice] [pid 109:tid 140711349422920] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:45.213777 2017] [proxy_balancer:emerg] [pid 109:tid 140711349422920] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:45.213795 2017] [:emerg] [pid 109:tid 140711349422920] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:46.440934 2017] [lbmethod_heartbeat:notice] [pid 110:tid 139711754603336] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:46.441168 2017] [proxy_balancer:emerg] [pid 110:tid 139711754603336] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:46.441192 2017] [:emerg] [pid 110:tid 139711754603336] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:47.527582 2017] [lbmethod_heartbeat:notice] [pid 111:tid 139792210029384] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:47.527778 2017] [proxy_balancer:emerg] [pid 111:tid 139792210029384] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:47.527795 2017] [:emerg] [pid 111:tid 139792210029384] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:48.634053 2017] [lbmethod_heartbeat:notice] [pid 112:tid 140060739656520] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:48.634296 2017] [proxy_balancer:emerg] [pid 112:tid 140060739656520] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:48.634314 2017] [:emerg] [pid 112:tid 140060739656520] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:49.722565 2017] [lbmethod_heartbeat:notice] [pid 113:tid 139642959911752] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:49.722743 2017] [proxy_balancer:emerg] [pid 113:tid 139642959911752] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:49.722761 2017] [:emerg] [pid 113:tid 139642959911752] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:50.808188 2017] [lbmethod_heartbeat:notice] [pid 114:tid 140164916476744] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:50.808361 2017] [proxy_balancer:emerg] [pid 114:tid 140164916476744] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:50.808379 2017] [:emerg] [pid 114:tid 140164916476744] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:51.892322 2017] [lbmethod_heartbeat:notice] [pid 115:tid 139913696443208] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:51.892489 2017] [proxy_balancer:emerg] [pid 115:tid 139913696443208] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:51.892508 2017] [:emerg] [pid 115:tid 139913696443208] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:52.979638 2017] [lbmethod_heartbeat:notice] [pid 116:tid 140314612362056] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:52.979864 2017] [proxy_balancer:emerg] [pid 116:tid 140314612362056] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:52.979899 2017] [:emerg] [pid 116:tid 140314612362056] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:54.104641 2017] [lbmethod_heartbeat:notice] [pid 117:tid 140556416514888] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:54.104858 2017] [proxy_balancer:emerg] [pid 117:tid 140556416514888] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:54.104875 2017] [:emerg] [pid 117:tid 140556416514888] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:55.190944 2017] [lbmethod_heartbeat:notice] [pid 118:tid 139947678116680] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:55.191151 2017] [proxy_balancer:emerg] [pid 118:tid 139947678116680] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:55.191170 2017] [:emerg] [pid 118:tid 139947678116680] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:56.325211 2017] [lbmethod_heartbeat:notice] [pid 119:tid 140130737900360] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:56.325429 2017] [proxy_balancer:emerg] [pid 119:tid 140130737900360] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:56.325447 2017] [:emerg] [pid 119:tid 140130737900360] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:57.434352 2017] [lbmethod_heartbeat:notice] [pid 120:tid 140714305383240] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:57.434545 2017] [proxy_balancer:emerg] [pid 120:tid 140714305383240] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:57.434563 2017] [:emerg] [pid 120:tid 140714305383240] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:58.585820 2017] [lbmethod_heartbeat:notice] [pid 121:tid 139947929537352] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:58.587554 2017] [proxy_balancer:emerg] [pid 121:tid 139947929537352] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:58.587598 2017] [:emerg] [pid 121:tid 139947929537352] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:37:59.687244 2017] [lbmethod_heartbeat:notice] [pid 122:tid 140019396553544] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:37:59.687413 2017] [proxy_balancer:emerg] [pid 122:tid 140019396553544] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:37:59.687431 2017] [:emerg] [pid 122:tid 140019396553544] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:00.796874 2017] [lbmethod_heartbeat:notice] [pid 123:tid 140296484764488] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:00.797070 2017] [proxy_balancer:emerg] [pid 123:tid 140296484764488] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:00.797221 2017] [:emerg] [pid 123:tid 140296484764488] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:01.888415 2017] [lbmethod_heartbeat:notice] [pid 124:tid 140051831671624] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:01.888590 2017] [proxy_balancer:emerg] [pid 124:tid 140051831671624] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:01.888607 2017] [:emerg] [pid 124:tid 140051831671624] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:02.981109 2017] [lbmethod_heartbeat:notice] [pid 125:tid 140104055860040] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:02.981318 2017] [proxy_balancer:emerg] [pid 125:tid 140104055860040] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:02.981372 2017] [:emerg] [pid 125:tid 140104055860040] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:04.069578 2017] [lbmethod_heartbeat:notice] [pid 126:tid 140443912858440] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:04.071002 2017] [proxy_balancer:emerg] [pid 126:tid 140443912858440] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:04.071050 2017] [:emerg] [pid 126:tid 140443912858440] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:05.170850 2017] [lbmethod_heartbeat:notice] [pid 127:tid 139883703024456] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:05.171056 2017] [proxy_balancer:emerg] [pid 127:tid 139883703024456] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:05.171075 2017] [:emerg] [pid 127:tid 139883703024456] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:06.264738 2017] [lbmethod_heartbeat:notice] [pid 128:tid 140453993278280] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:06.264902 2017] [proxy_balancer:emerg] [pid 128:tid 140453993278280] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:06.264918 2017] [:emerg] [pid 128:tid 140453993278280] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:07.349937 2017] [lbmethod_heartbeat:notice] [pid 129:tid 140230651456328] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:07.350121 2017] [proxy_balancer:emerg] [pid 129:tid 140230651456328] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:07.350141 2017] [:emerg] [pid 129:tid 140230651456328] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:08.431734 2017] [lbmethod_heartbeat:notice] [pid 130:tid 140435968383816] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:08.431898 2017] [proxy_balancer:emerg] [pid 130:tid 140435968383816] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:08.431916 2017] [:emerg] [pid 130:tid 140435968383816] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:09.517473 2017] [lbmethod_heartbeat:notice] [pid 131:tid 140719484443464] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:09.517661 2017] [proxy_balancer:emerg] [pid 131:tid 140719484443464] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:09.517678 2017] [:emerg] [pid 131:tid 140719484443464] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:10.602676 2017] [lbmethod_heartbeat:notice] [pid 132:tid 139703521188680] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:10.602853 2017] [proxy_balancer:emerg] [pid 132:tid 139703521188680] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:10.602870 2017] [:emerg] [pid 132:tid 139703521188680] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:11.692589 2017] [lbmethod_heartbeat:notice] [pid 133:tid 139939959176008] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:11.692776 2017] [proxy_balancer:emerg] [pid 133:tid 139939959176008] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:11.692796 2017] [:emerg] [pid 133:tid 139939959176008] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:12.774250 2017] [lbmethod_heartbeat:notice] [pid 134:tid 140710519671624] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:12.774450 2017] [proxy_balancer:emerg] [pid 134:tid 140710519671624] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:12.774468 2017] [:emerg] [pid 134:tid 140710519671624] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:13.867259 2017] [lbmethod_heartbeat:notice] [pid 135:tid 139760688855880] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:13.867437 2017] [proxy_balancer:emerg] [pid 135:tid 139760688855880] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:13.867455 2017] [:emerg] [pid 135:tid 139760688855880] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:14.950357 2017] [lbmethod_heartbeat:notice] [pid 136:tid 139849027984200] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:14.958241 2017] [proxy_balancer:emerg] [pid 136:tid 139849027984200] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:14.958303 2017] [:emerg] [pid 136:tid 139849027984200] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:16.055674 2017] [lbmethod_heartbeat:notice] [pid 137:tid 140018207238984] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:16.057648 2017] [proxy_balancer:emerg] [pid 137:tid 140018207238984] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:16.057690 2017] [:emerg] [pid 137:tid 140018207238984] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:17.153942 2017] [lbmethod_heartbeat:notice] [pid 138:tid 140184378837832] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:17.154136 2017] [proxy_balancer:emerg] [pid 138:tid 140184378837832] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:17.154156 2017] [:emerg] [pid 138:tid 140184378837832] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:18.233866 2017] [lbmethod_heartbeat:notice] [pid 139:tid 139743573674824] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:18.234036 2017] [proxy_balancer:emerg] [pid 139:tid 139743573674824] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:18.234053 2017] [:emerg] [pid 139:tid 139743573674824] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:19.319005 2017] [lbmethod_heartbeat:notice] [pid 140:tid 139733748263752] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:19.319192 2017] [proxy_balancer:emerg] [pid 140:tid 139733748263752] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:19.319209 2017] [:emerg] [pid 140:tid 139733748263752] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:20.411733 2017] [lbmethod_heartbeat:notice] [pid 141:tid 140357220465480] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:20.412610 2017] [proxy_balancer:emerg] [pid 141:tid 140357220465480] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:20.412653 2017] [:emerg] [pid 141:tid 140357220465480] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:21.500729 2017] [lbmethod_heartbeat:notice] [pid 142:tid 140395279264584] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:21.500907 2017] [proxy_balancer:emerg] [pid 142:tid 140395279264584] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:21.500924 2017] [:emerg] [pid 142:tid 140395279264584] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:22.588574 2017] [lbmethod_heartbeat:notice] [pid 143:tid 139655908969288] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:22.588793 2017] [proxy_balancer:emerg] [pid 143:tid 139655908969288] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:22.588812 2017] [:emerg] [pid 143:tid 139655908969288] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:23.670772 2017] [lbmethod_heartbeat:notice] [pid 144:tid 140321289501512] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:23.670946 2017] [proxy_balancer:emerg] [pid 144:tid 140321289501512] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:23.670963 2017] [:emerg] [pid 144:tid 140321289501512] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:24.768316 2017] [lbmethod_heartbeat:notice] [pid 145:tid 139787886275400] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:24.768642 2017] [proxy_balancer:emerg] [pid 145:tid 139787886275400] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:24.768661 2017] [:emerg] [pid 145:tid 139787886275400] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:25.862828 2017] [lbmethod_heartbeat:notice] [pid 146:tid 140457826712392] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:25.865645 2017] [proxy_balancer:emerg] [pid 146:tid 140457826712392] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:25.865700 2017] [:emerg] [pid 146:tid 140457826712392] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:26.978559 2017] [lbmethod_heartbeat:notice] [pid 147:tid 140634067811144] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:26.978793 2017] [proxy_balancer:emerg] [pid 147:tid 140634067811144] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:26.978811 2017] [:emerg] [pid 147:tid 140634067811144] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:28.064987 2017] [lbmethod_heartbeat:notice] [pid 148:tid 139857330342728] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:28.065171 2017] [proxy_balancer:emerg] [pid 148:tid 139857330342728] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:28.065190 2017] [:emerg] [pid 148:tid 139857330342728] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:29.162750 2017] [lbmethod_heartbeat:notice] [pid 149:tid 139957445909320] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:29.162921 2017] [proxy_balancer:emerg] [pid 149:tid 139957445909320] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:29.162939 2017] [:emerg] [pid 149:tid 139957445909320] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:30.245732 2017] [lbmethod_heartbeat:notice] [pid 150:tid 140596282727240] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:30.245904 2017] [proxy_balancer:emerg] [pid 150:tid 140596282727240] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:30.245920 2017] [:emerg] [pid 150:tid 140596282727240] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:31.330762 2017] [lbmethod_heartbeat:notice] [pid 151:tid 140579039771464] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:31.330948 2017] [proxy_balancer:emerg] [pid 151:tid 140579039771464] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:31.331001 2017] [:emerg] [pid 151:tid 140579039771464] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:32.415542 2017] [lbmethod_heartbeat:notice] [pid 152:tid 140575796865864] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:32.415718 2017] [proxy_balancer:emerg] [pid 152:tid 140575796865864] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:32.415735 2017] [:emerg] [pid 152:tid 140575796865864] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:33.503467 2017] [lbmethod_heartbeat:notice] [pid 153:tid 140264782953288] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:33.503634 2017] [proxy_balancer:emerg] [pid 153:tid 140264782953288] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:33.503652 2017] [:emerg] [pid 153:tid 140264782953288] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:34.585144 2017] [lbmethod_heartbeat:notice] [pid 154:tid 140341784996680] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:34.585311 2017] [proxy_balancer:emerg] [pid 154:tid 140341784996680] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:34.585329 2017] [:emerg] [pid 154:tid 140341784996680] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:35.671823 2017] [lbmethod_heartbeat:notice] [pid 155:tid 140069470260040] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:35.671987 2017] [proxy_balancer:emerg] [pid 155:tid 140069470260040] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:35.672004 2017] [:emerg] [pid 155:tid 140069470260040] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:36.769071 2017] [lbmethod_heartbeat:notice] [pid 156:tid 139939436628808] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:36.769274 2017] [proxy_balancer:emerg] [pid 156:tid 139939436628808] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:36.769293 2017] [:emerg] [pid 156:tid 139939436628808] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:37.850638 2017] [lbmethod_heartbeat:notice] [pid 157:tid 139804373011272] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:37.850816 2017] [proxy_balancer:emerg] [pid 157:tid 139804373011272] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:37.850834 2017] [:emerg] [pid 157:tid 139804373011272] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:38.934536 2017] [lbmethod_heartbeat:notice] [pid 158:tid 139659132828488] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:38.934717 2017] [proxy_balancer:emerg] [pid 158:tid 139659132828488] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:38.934734 2017] [:emerg] [pid 158:tid 139659132828488] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:40.015799 2017] [lbmethod_heartbeat:notice] [pid 159:tid 140580694231880] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:40.015979 2017] [proxy_balancer:emerg] [pid 159:tid 140580694231880] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:40.015997 2017] [:emerg] [pid 159:tid 140580694231880] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:41.102961 2017] [lbmethod_heartbeat:notice] [pid 160:tid 140372658928456] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:41.103188 2017] [proxy_balancer:emerg] [pid 160:tid 140372658928456] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:41.103209 2017] [:emerg] [pid 160:tid 140372658928456] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:42.192242 2017] [lbmethod_heartbeat:notice] [pid 161:tid 140020278987592] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:42.192423 2017] [proxy_balancer:emerg] [pid 161:tid 140020278987592] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:42.192440 2017] [:emerg] [pid 161:tid 140020278987592] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:43.281991 2017] [lbmethod_heartbeat:notice] [pid 162:tid 139870920035144] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:43.282202 2017] [proxy_balancer:emerg] [pid 162:tid 139870920035144] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:43.282220 2017] [:emerg] [pid 162:tid 139870920035144] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:44.369070 2017] [lbmethod_heartbeat:notice] [pid 163:tid 140484826348360] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:44.369259 2017] [proxy_balancer:emerg] [pid 163:tid 140484826348360] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:44.369277 2017] [:emerg] [pid 163:tid 140484826348360] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:45.452879 2017] [lbmethod_heartbeat:notice] [pid 164:tid 140639046654792] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:45.453197 2017] [proxy_balancer:emerg] [pid 164:tid 140639046654792] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:45.453232 2017] [:emerg] [pid 164:tid 140639046654792] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:46.546286 2017] [lbmethod_heartbeat:notice] [pid 165:tid 139691219532616] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:46.546454 2017] [proxy_balancer:emerg] [pid 165:tid 139691219532616] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:46.546471 2017] [:emerg] [pid 165:tid 139691219532616] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:47.627626 2017] [lbmethod_heartbeat:notice] [pid 166:tid 140274688711496] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:47.627814 2017] [proxy_balancer:emerg] [pid 166:tid 140274688711496] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:47.627832 2017] [:emerg] [pid 166:tid 140274688711496] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:48.708766 2017] [lbmethod_heartbeat:notice] [pid 167:tid 140122062232392] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:48.708942 2017] [proxy_balancer:emerg] [pid 167:tid 140122062232392] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:48.708960 2017] [:emerg] [pid 167:tid 140122062232392] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:49.789230 2017] [lbmethod_heartbeat:notice] [pid 168:tid 139805108968264] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:49.789427 2017] [proxy_balancer:emerg] [pid 168:tid 139805108968264] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:49.789446 2017] [:emerg] [pid 168:tid 139805108968264] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:50.905220 2017] [lbmethod_heartbeat:notice] [pid 169:tid 140279776377672] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:50.905446 2017] [proxy_balancer:emerg] [pid 169:tid 140279776377672] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:50.905464 2017] [:emerg] [pid 169:tid 140279776377672] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:52.002772 2017] [lbmethod_heartbeat:notice] [pid 170:tid 140106655275848] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:52.002972 2017] [proxy_balancer:emerg] [pid 170:tid 140106655275848] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:52.002989 2017] [:emerg] [pid 170:tid 140106655275848] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:53.085942 2017] [lbmethod_heartbeat:notice] [pid 171:tid 139684092455752] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:53.086161 2017] [proxy_balancer:emerg] [pid 171:tid 139684092455752] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:53.086182 2017] [:emerg] [pid 171:tid 139684092455752] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:54.168931 2017] [lbmethod_heartbeat:notice] [pid 172:tid 139815194250056] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:54.169111 2017] [proxy_balancer:emerg] [pid 172:tid 139815194250056] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:54.169132 2017] [:emerg] [pid 172:tid 139815194250056] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:55.252797 2017] [lbmethod_heartbeat:notice] [pid 173:tid 140454090414920] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:55.252964 2017] [proxy_balancer:emerg] [pid 173:tid 140454090414920] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:55.252982 2017] [:emerg] [pid 173:tid 140454090414920] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:56.338695 2017] [lbmethod_heartbeat:notice] [pid 174:tid 140578038627144] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:56.338886 2017] [proxy_balancer:emerg] [pid 174:tid 140578038627144] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:56.338906 2017] [:emerg] [pid 174:tid 140578038627144] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:57.420358 2017] [lbmethod_heartbeat:notice] [pid 175:tid 140605179247432] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:57.420525 2017] [proxy_balancer:emerg] [pid 175:tid 140605179247432] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:57.420544 2017] [:emerg] [pid 175:tid 140605179247432] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:58.508055 2017] [lbmethod_heartbeat:notice] [pid 176:tid 140282421648200] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:58.508260 2017] [proxy_balancer:emerg] [pid 176:tid 140282421648200] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:58.508279 2017] [:emerg] [pid 176:tid 140282421648200] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:38:59.594384 2017] [lbmethod_heartbeat:notice] [pid 177:tid 140565858966344] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:38:59.594554 2017] [proxy_balancer:emerg] [pid 177:tid 140565858966344] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:38:59.594573 2017] [:emerg] [pid 177:tid 140565858966344] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:00.679857 2017] [lbmethod_heartbeat:notice] [pid 178:tid 140085878983496] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:00.680045 2017] [proxy_balancer:emerg] [pid 178:tid 140085878983496] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:00.680062 2017] [:emerg] [pid 178:tid 140085878983496] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:01.762931 2017] [lbmethod_heartbeat:notice] [pid 179:tid 140167209036616] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:01.763133 2017] [proxy_balancer:emerg] [pid 179:tid 140167209036616] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:01.763154 2017] [:emerg] [pid 179:tid 140167209036616] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:02.845855 2017] [lbmethod_heartbeat:notice] [pid 180:tid 139683991362376] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:02.846031 2017] [proxy_balancer:emerg] [pid 180:tid 139683991362376] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:02.846049 2017] [:emerg] [pid 180:tid 139683991362376] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:03.929372 2017] [lbmethod_heartbeat:notice] [pid 181:tid 140452964576072] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:03.929542 2017] [proxy_balancer:emerg] [pid 181:tid 140452964576072] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:03.929559 2017] [:emerg] [pid 181:tid 140452964576072] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:05.046777 2017] [lbmethod_heartbeat:notice] [pid 182:tid 140515037997896] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:05.046958 2017] [proxy_balancer:emerg] [pid 182:tid 140515037997896] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:05.046975 2017] [:emerg] [pid 182:tid 140515037997896] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:06.137329 2017] [lbmethod_heartbeat:notice] [pid 183:tid 140294898072392] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:06.137504 2017] [proxy_balancer:emerg] [pid 183:tid 140294898072392] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:06.137521 2017] [:emerg] [pid 183:tid 140294898072392] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:07.222188 2017] [lbmethod_heartbeat:notice] [pid 184:tid 140045454842696] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:07.222550 2017] [proxy_balancer:emerg] [pid 184:tid 140045454842696] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:07.230711 2017] [:emerg] [pid 184:tid 140045454842696] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:08.312279 2017] [lbmethod_heartbeat:notice] [pid 185:tid 140058383539016] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:08.312450 2017] [proxy_balancer:emerg] [pid 185:tid 140058383539016] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:08.312467 2017] [:emerg] [pid 185:tid 140058383539016] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:09.395181 2017] [lbmethod_heartbeat:notice] [pid 186:tid 140446712761160] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:09.395354 2017] [proxy_balancer:emerg] [pid 186:tid 140446712761160] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:09.395403 2017] [:emerg] [pid 186:tid 140446712761160] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:10.477668 2017] [lbmethod_heartbeat:notice] [pid 187:tid 140143562234696] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:10.477833 2017] [proxy_balancer:emerg] [pid 187:tid 140143562234696] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:10.477850 2017] [:emerg] [pid 187:tid 140143562234696] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:11.571744 2017] [lbmethod_heartbeat:notice] [pid 188:tid 140194661804872] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:11.571932 2017] [proxy_balancer:emerg] [pid 188:tid 140194661804872] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:11.571950 2017] [:emerg] [pid 188:tid 140194661804872] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:12.656693 2017] [lbmethod_heartbeat:notice] [pid 189:tid 139874754300744] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:12.656894 2017] [proxy_balancer:emerg] [pid 189:tid 139874754300744] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:12.656911 2017] [:emerg] [pid 189:tid 139874754300744] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:13.747152 2017] [lbmethod_heartbeat:notice] [pid 190:tid 140050550074184] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:13.747400 2017] [proxy_balancer:emerg] [pid 190:tid 140050550074184] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:13.747420 2017] [:emerg] [pid 190:tid 140050550074184] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:14.830885 2017] [lbmethod_heartbeat:notice] [pid 191:tid 140368439155528] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:14.831062 2017] [proxy_balancer:emerg] [pid 191:tid 140368439155528] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:14.831080 2017] [:emerg] [pid 191:tid 140368439155528] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:15.914867 2017] [lbmethod_heartbeat:notice] [pid 192:tid 140082891524936] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:15.915058 2017] [proxy_balancer:emerg] [pid 192:tid 140082891524936] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:15.915075 2017] [:emerg] [pid 192:tid 140082891524936] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:17.031276 2017] [lbmethod_heartbeat:notice] [pid 193:tid 139746652662600] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:17.031457 2017] [proxy_balancer:emerg] [pid 193:tid 139746652662600] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:17.031475 2017] [:emerg] [pid 193:tid 139746652662600] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:18.119451 2017] [lbmethod_heartbeat:notice] [pid 194:tid 140325906266952] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:18.119645 2017] [proxy_balancer:emerg] [pid 194:tid 140325906266952] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:18.119663 2017] [:emerg] [pid 194:tid 140325906266952] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:19.213367 2017] [lbmethod_heartbeat:notice] [pid 195:tid 140159269186376] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:19.213571 2017] [proxy_balancer:emerg] [pid 195:tid 140159269186376] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:19.213588 2017] [:emerg] [pid 195:tid 140159269186376] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:20.297126 2017] [lbmethod_heartbeat:notice] [pid 196:tid 140173882841928] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:20.297303 2017] [proxy_balancer:emerg] [pid 196:tid 140173882841928] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:20.297324 2017] [:emerg] [pid 196:tid 140173882841928] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:21.382026 2017] [lbmethod_heartbeat:notice] [pid 197:tid 140297483668296] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:21.382217 2017] [proxy_balancer:emerg] [pid 197:tid 140297483668296] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:21.382234 2017] [:emerg] [pid 197:tid 140297483668296] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:22.466113 2017] [lbmethod_heartbeat:notice] [pid 198:tid 140074145073992] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:22.466284 2017] [proxy_balancer:emerg] [pid 198:tid 140074145073992] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:22.466302 2017] [:emerg] [pid 198:tid 140074145073992] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:23.550491 2017] [lbmethod_heartbeat:notice] [pid 199:tid 140027165907784] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:23.550671 2017] [proxy_balancer:emerg] [pid 199:tid 140027165907784] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:23.550690 2017] [:emerg] [pid 199:tid 140027165907784] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:24.671168 2017] [lbmethod_heartbeat:notice] [pid 200:tid 140239987956552] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:24.671373 2017] [proxy_balancer:emerg] [pid 200:tid 140239987956552] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:24.671407 2017] [:emerg] [pid 200:tid 140239987956552] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:25.758069 2017] [lbmethod_heartbeat:notice] [pid 201:tid 140436894952264] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:25.758282 2017] [proxy_balancer:emerg] [pid 201:tid 140436894952264] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:25.758302 2017] [:emerg] [pid 201:tid 140436894952264] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:26.849079 2017] [lbmethod_heartbeat:notice] [pid 202:tid 140491263941448] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:26.849369 2017] [proxy_balancer:emerg] [pid 202:tid 140491263941448] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:26.849387 2017] [:emerg] [pid 202:tid 140491263941448] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:27.936035 2017] [lbmethod_heartbeat:notice] [pid 203:tid 139870716021576] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:27.936241 2017] [proxy_balancer:emerg] [pid 203:tid 139870716021576] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:27.936259 2017] [:emerg] [pid 203:tid 139870716021576] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:29.026041 2017] [lbmethod_heartbeat:notice] [pid 204:tid 139755203218248] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:29.026426 2017] [proxy_balancer:emerg] [pid 204:tid 139755203218248] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:29.026443 2017] [:emerg] [pid 204:tid 139755203218248] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:30.130991 2017] [lbmethod_heartbeat:notice] [pid 205:tid 139712173083464] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:30.131204 2017] [proxy_balancer:emerg] [pid 205:tid 139712173083464] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:30.131877 2017] [:emerg] [pid 205:tid 139712173083464] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:31.212274 2017] [lbmethod_heartbeat:notice] [pid 206:tid 140354907192136] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:31.212461 2017] [proxy_balancer:emerg] [pid 206:tid 140354907192136] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:31.212479 2017] [:emerg] [pid 206:tid 140354907192136] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:32.296741 2017] [lbmethod_heartbeat:notice] [pid 207:tid 140565585496904] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:32.296914 2017] [proxy_balancer:emerg] [pid 207:tid 140565585496904] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:32.296933 2017] [:emerg] [pid 207:tid 140565585496904] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:33.381692 2017] [lbmethod_heartbeat:notice] [pid 208:tid 140629529066312] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:33.381866 2017] [proxy_balancer:emerg] [pid 208:tid 140629529066312] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:33.381884 2017] [:emerg] [pid 208:tid 140629529066312] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:34.470788 2017] [lbmethod_heartbeat:notice] [pid 209:tid 140526127938376] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:34.470954 2017] [proxy_balancer:emerg] [pid 209:tid 140526127938376] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:34.470972 2017] [:emerg] [pid 209:tid 140526127938376] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:35.563817 2017] [lbmethod_heartbeat:notice] [pid 210:tid 140476174236488] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:35.564191 2017] [proxy_balancer:emerg] [pid 210:tid 140476174236488] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:35.564265 2017] [:emerg] [pid 210:tid 140476174236488] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:36.765650 2017] [lbmethod_heartbeat:notice] [pid 211:tid 140288374811464] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:36.765821 2017] [proxy_balancer:emerg] [pid 211:tid 140288374811464] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:36.765840 2017] [:emerg] [pid 211:tid 140288374811464] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:37.853337 2017] [lbmethod_heartbeat:notice] [pid 212:tid 139994854255432] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:37.853528 2017] [proxy_balancer:emerg] [pid 212:tid 139994854255432] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:37.853590 2017] [:emerg] [pid 212:tid 139994854255432] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:38.934385 2017] [lbmethod_heartbeat:notice] [pid 213:tid 139877935582024] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:38.934569 2017] [proxy_balancer:emerg] [pid 213:tid 139877935582024] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:38.934586 2017] [:emerg] [pid 213:tid 139877935582024] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:40.017279 2017] [lbmethod_heartbeat:notice] [pid 214:tid 140570532535112] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:40.017453 2017] [proxy_balancer:emerg] [pid 214:tid 140570532535112] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:40.017470 2017] [:emerg] [pid 214:tid 140570532535112] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:41.105198 2017] [lbmethod_heartbeat:notice] [pid 215:tid 140364034644808] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:41.105388 2017] [proxy_balancer:emerg] [pid 215:tid 140364034644808] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:41.105405 2017] [:emerg] [pid 215:tid 140364034644808] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:42.186978 2017] [lbmethod_heartbeat:notice] [pid 216:tid 140131144489800] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:42.187164 2017] [proxy_balancer:emerg] [pid 216:tid 140131144489800] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:42.187184 2017] [:emerg] [pid 216:tid 140131144489800] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:43.271889 2017] [lbmethod_heartbeat:notice] [pid 217:tid 140163177442120] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:43.272053 2017] [proxy_balancer:emerg] [pid 217:tid 140163177442120] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:43.272071 2017] [:emerg] [pid 217:tid 140163177442120] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:44.359795 2017] [lbmethod_heartbeat:notice] [pid 218:tid 140476190870344] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:44.359963 2017] [proxy_balancer:emerg] [pid 218:tid 140476190870344] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:44.359980 2017] [:emerg] [pid 218:tid 140476190870344] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:45.444220 2017] [lbmethod_heartbeat:notice] [pid 219:tid 139707249687368] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:45.444395 2017] [proxy_balancer:emerg] [pid 219:tid 139707249687368] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:45.444412 2017] [:emerg] [pid 219:tid 139707249687368] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:46.535299 2017] [lbmethod_heartbeat:notice] [pid 220:tid 140693517712200] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:46.535493 2017] [proxy_balancer:emerg] [pid 220:tid 140693517712200] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:46.535511 2017] [:emerg] [pid 220:tid 140693517712200] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:47.616449 2017] [lbmethod_heartbeat:notice] [pid 221:tid 140107765467976] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:47.616738 2017] [proxy_balancer:emerg] [pid 221:tid 140107765467976] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:47.616757 2017] [:emerg] [pid 221:tid 140107765467976] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:48.705012 2017] [lbmethod_heartbeat:notice] [pid 222:tid 139911416134472] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:48.705441 2017] [proxy_balancer:emerg] [pid 222:tid 139911416134472] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:48.705571 2017] [:emerg] [pid 222:tid 139911416134472] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:49.846286 2017] [lbmethod_heartbeat:notice] [pid 223:tid 140299502889800] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:49.846471 2017] [proxy_balancer:emerg] [pid 223:tid 140299502889800] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:49.846491 2017] [:emerg] [pid 223:tid 140299502889800] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:50.931460 2017] [lbmethod_heartbeat:notice] [pid 224:tid 139792502631240] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:50.931665 2017] [proxy_balancer:emerg] [pid 224:tid 139792502631240] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:50.931683 2017] [:emerg] [pid 224:tid 139792502631240] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:52.016296 2017] [lbmethod_heartbeat:notice] [pid 225:tid 140517049285448] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:52.016504 2017] [proxy_balancer:emerg] [pid 225:tid 140517049285448] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:52.016522 2017] [:emerg] [pid 225:tid 140517049285448] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:53.099791 2017] [lbmethod_heartbeat:notice] [pid 226:tid 139919851404104] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:53.099984 2017] [proxy_balancer:emerg] [pid 226:tid 139919851404104] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:53.100002 2017] [:emerg] [pid 226:tid 139919851404104] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:54.221167 2017] [lbmethod_heartbeat:notice] [pid 227:tid 140041927248712] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:54.221379 2017] [proxy_balancer:emerg] [pid 227:tid 140041927248712] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:54.221397 2017] [:emerg] [pid 227:tid 140041927248712] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:55.306790 2017] [lbmethod_heartbeat:notice] [pid 228:tid 140394574973768] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:55.307012 2017] [proxy_balancer:emerg] [pid 228:tid 140394574973768] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:55.307030 2017] [:emerg] [pid 228:tid 140394574973768] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:56.393839 2017] [lbmethod_heartbeat:notice] [pid 229:tid 140374382865224] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:56.394020 2017] [proxy_balancer:emerg] [pid 229:tid 140374382865224] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:56.394037 2017] [:emerg] [pid 229:tid 140374382865224] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:57.482807 2017] [lbmethod_heartbeat:notice] [pid 230:tid 139730715769672] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:57.482983 2017] [proxy_balancer:emerg] [pid 230:tid 139730715769672] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:57.483001 2017] [:emerg] [pid 230:tid 139730715769672] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:58.571145 2017] [lbmethod_heartbeat:notice] [pid 231:tid 140221419313992] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:58.571334 2017] [proxy_balancer:emerg] [pid 231:tid 140221419313992] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:58.571351 2017] [:emerg] [pid 231:tid 140221419313992] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:39:59.664184 2017] [lbmethod_heartbeat:notice] [pid 232:tid 140643315088200] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:39:59.664355 2017] [proxy_balancer:emerg] [pid 232:tid 140643315088200] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:39:59.664373 2017] [:emerg] [pid 232:tid 140643315088200] AH00020: Configuration Failed, exiting
+[Wed Jun 14 01:40:00.769999 2017] [lbmethod_heartbeat:notice] [pid 233:tid 140161611676488] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Wed Jun 14 01:40:00.770186 2017] [proxy_balancer:emerg] [pid 233:tid 140161611676488] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Jun 14 01:40:00.770206 2017] [:emerg] [pid 233:tid 140161611676488] AH00020: Configuration Failed, exiting

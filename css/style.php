@@ -1,7 +1,8 @@
 /*********************************************************
  *  Body Style
  *********************************************************/
-body {
+html, body, iframe {
+  height: 100%;
   background-color: <?php echo H(OBIB_PRIMARY_BG);?>;
 }
 

@@ -429,6 +429,26 @@
  </li>
 <?php } ?>
 
+<?php if ($nav == "etiquetas") { ?>
+ <li class="active">
+   <?php echo $navLoc->getText("etiquetas");?>
+ </li>
+<?php } else { ?>
+ <li>
+   <a href="../catalog/etiquetas.php" class="alt1"><?php echo $navLoc->getText("etiquetas");?></a>
+ </li>
+<?php } ?>
+
+<?php if ($nav == "resources") { ?>
+ <li class="active">
+   <?php echo $navLoc->getText("resources");?>
+ </li>
+<?php } else { ?>
+ <li>
+   <a href="../catalog/resources.php" class="alt1"><?php echo $navLoc->getText("resources");?></a>
+ </li>
+<?php } ?>
+
 <?php if ($nav == "marc") { ?>
  <li class="active">
    <?php echo $navLoc->getText("marc_list");?>

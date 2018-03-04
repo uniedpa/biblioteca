@@ -181,3 +181,5 @@ $trans["homeReadmeLink"]        = "\$text = 'Leeme';";
 $trans["homeChangLogLink"]      = "\$text = 'Historial de Cambios (ChangeLog)';";
 $trans["homeUserStatusLink"]    = "\$text = 'Estado del Usario y apartado de materiales';";
 $trans["homeUserOpac"]          = "\$text = 'Catálogo Público en Linea';";
+
+$trans["resources"]             = "\$text = 'Recursos para Catalogación';";
