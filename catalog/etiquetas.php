@@ -2,7 +2,7 @@
 /* This file is part of a copyrighted work; it is distributed with NO WARRANTY.
  * See the file COPYRIGHT.html for more details.
  */
-   require_once("../shared/common.php");
+  require_once("../shared/common.php");
   session_cache_limiter(null);
 
   $tab = "cataloging";
@@ -146,16 +146,16 @@ if( preg_match_all( '/^(?:.*?\K\s){1}/s' , $cn2 , $matches )
 			$i = $copy_count;
 			while ($i > 0) {
 				$barcode = $barcodes[$i-1]["barcode"];
-				$book_link = "<a href=\"".$baseurl.$bibid."\">".$barcode."</a>";
+				$book_link = "<a href=\"".$baseurl.$bibid."\" "."target=\""."_blank\">".$barcode."</a>";
 				$label = "<td>".$rows[$r]["cn1"]."\n".$cn2."\n".$cn3."<span class=\"bibid\">\n".$book_link."</span>"."</td>";
 				array_push($label_array,$label);
 				$i --;
 			}
 		} else {
 			$barcode = $barcodes[0]["barcode"];
-			$book_link = "<a href=\"".$baseurl.$bibid."\">".$barcode."</a>";
+			$book_link = "<a href=\"".$baseurl.$bibid."\" "."target=\""."_blank\">".$barcode."</a>";
 			$label = "<td>".$rows[$r]["cn1"]."\n".$cn2."\n".$cn3."<span class=\"bibid\">\n".$book_link."</span>"."</td>";
-		array_push($label_array,$label);
+		    array_push($label_array,$label);
 	}
 } //for loop thru all bibids
 //print_r($label_array);
