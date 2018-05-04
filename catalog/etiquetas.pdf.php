@@ -134,13 +134,17 @@ $label_html="";
 if ($label_count > 0) {
   //echo $label_count-1;
   for ($l = 0; $l <= $label_count-1; $l++) {
+  // print count($label_chunked[$l]);
    $table->rowStyle('min-height:7; align:C;valign:M');
    $table->easyCell('','colspan:4;');
    $table->printRow();
    $table->rowStyle('min-height:28; align:C{CCCC};valign:M; paddingY:0');
    $table->easyCell($label_chunked[$l][0]);
    $table->easyCell('');
-   $table->easyCell($label_chunked[$l][1]);
+   if (count($label_chunked[$l])>1)
+	{
+   	$table->easyCell($label_chunked[$l][1]);
+	};
    $table->printRow(); 
   }
 }
