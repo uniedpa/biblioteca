@@ -1,8 +1,8 @@
 <?php
-define('FPDF_FONTPATH','fonts');
-require('fpdf.php');
-require('exfpdf.php');
-require('easyTable.php');
+define('FPDF_FONTPATH','../font');
+require_once('../vendor/fpdf/fpdf.php');
+require_once('../vendor/fpdf/exfpdf.php');
+require_once('../vendor/fpdf/easyTable.php');
 $pdf = new exFPDF('L','mm','letter');
 $pdf-> SetMargins(0,0,0);
 $pdf-> AddPage();

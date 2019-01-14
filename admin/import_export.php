@@ -23,7 +23,7 @@
     </li>
 </br>
     <li>
-      <a href="http://localhost/espa33/catalog/upload_csv_form.php?reset=Y"><?php echo $loc->getText("importacion de bibliografias"); ?></a>
+      <a href="../catalog/upload_csv_form.php?reset=Y"><?php echo $loc->getText("importacion de bibliografias"); ?></a>
     </li>
 </br>
     <li>

@@ -29,7 +29,7 @@
         if(!isset($connection)) {
              // Load configuration as an array. Use the actual location of your configuration file
             $config = parse_ini_file('etiquetas-config.ini'); 
-            $connection = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
+	    $connection = mysqli_connect('127.0.0.1',$config['username'],$config['password'],$config['dbname']);
         }
 
         // If connection was not successful, handle the error
@@ -66,20 +66,28 @@
   	function db_error() {
     	$connection = db_connect();
     	return mysqli_error($connection);
-	}	
+    	}
+
 // Query the database
-//FOR SPECIFIC CALL NUMBERS ADD -> AND biblio.call_nmbr1 LIKE '001%'
-//(call_nmbr2='UN58 vol.1 no.1' AND call_nmbr3='2014') AND (call_nmbr2='UN58 vol.1 no.2' AND call_nmbr3='2015'))
-$query = "
-SELECT DISTINCT biblio.bibid,biblio.call_nmbr1 cn1,biblio.call_nmbr2 cn2,biblio.call_nmbr3 cn3
-FROM biblio, biblio_copy 
-WHERE biblio.bibid=biblio_copy.bibid AND biblio_copy.status_cd=10 AND 
-(biblio.title LIKE 'Uniedpa%' OR biblio.bibid=1649 OR biblio.bibid=1650 OR biblio.bibid=1651 OR biblio.bibid=1411 OR biblio.bibid=1652 OR biblio.bibid=1653 OR biblio.bibid=1654 OR biblio.bibid=1005 OR biblio_copy.copy_desc='Por etiquetar 2017' OR biblio_copy.copy_desc='Por etiquetar 2018' OR biblio_copy.copy_desc='Por etiquetar')
-ORDER BY call_nmbr1 ASC, call_nmbr2 ASC
-";
 
+$query_html='<form method="post" action=""><textarea id="query" name="query"></textarea><input type="submit" name="submit" value="Enviar" id="submit"></form>';
 
-$rows = db_select($query);
+echo $query_html;
+
+$query1='SELECT DISTINCT biblio.bibid,biblio.call_nmbr1 cn1,biblio.call_nmbr2 cn2,biblio.call_nmbr3 cn3 FROM biblio, biblio_copy WHERE biblio.bibid=biblio_copy.bibid AND biblio_copy.status_cd=10';
+
+$query2=htmlspecialchars($_POST['query']);
+
+$query3='ORDER BY call_nmbr1 ASC, call_nmbr2 ASC';
+
+$query=$query1;
+
+echo '<p>'.$query.'</p>';
+
+/* $query = "SELECT DISTINCT biblio.bibid,biblio.call_nmbr1 cn1,biblio.call_nmbr2 cn2,biblio.call_nmbr3 cn3 FROM biblio, biblio_copy WHERE 
+   biblio.bibid=biblio_copy.bibid AND biblio_copy.status_cd=10 AND (biblio.title LIKE 'Uniedpa%') ORDER BY call_nmbr1 ASC, call_nmbr2 ASC"; */
+
+$rows = db_select($query1);
 if($rows === false) {
   $error = db_error();
     // Send the error to an administrator, log to a file, etc.
@@ -122,7 +130,7 @@ $query = "SELECT barcode_nmbr barcode FROM biblio_copy WHERE bibid=$bibid ORDER 
 $barcode="";
 $barcodes = db_select($query);
 $barcode_count = count($barcodes);
-$baseurl="http://localhost/www/shared/biblio_view.php?bibid=";
+$baseurl="../shared/biblio_view.php?bibid=";
 //echo $barcodes[1]["barcode"]."\n";
 if( preg_match_all( '/^(?:.*?\K\s){1}/s' , $cn2 , $matches )
   		  && isset( $matches[0] )
@@ -176,11 +184,12 @@ if ($label_count > 0) {
 //echo $label_html;
 } //$rows not false else end
 //print_r($rows);
-$html_buttons='<h3 style="display: inline;">Etiquetas para identificaci&oacute;n&nbsp;</h3><input type="button" onclick="refreshIframe();" value="Refrescar"/><input style="margin-left: 10px;" type="button" value="Imprimir" onclick="zPrint(etiquetas);"/>';
+$html_buttons='<h3 style="display: inline;">Etiquetas para identificaci&oacute;n&nbsp;</h3><input type="button" onclick="refreshIframe();" value="Refrescar"/><input style="margin-left: 10px;" type="button" value="Imprimir" onclick="zPrint(etiquetas);"/><input style="margin-left: 10px;" type="button" value="Imprimir Etiq. Tuk" onclick="window.open(\'etiquetas.pdf.php\');"/>';
 $html_doctype='<!DOCTYPE HTML PUBLIC "-//W3//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">';
 $html_head='<head><meta charset="utf-8"/><title>Por etiquetar</title><link href="etiquetas.css" rel="stylesheet" type="text/css">';
 $html_script='<script type="text/javascript">function zPrint(oTgt){oTgt.focus();oTgt.print();};function refreshIframe(){window.location.reload(true)};</script>';
 $html_close_head='</head><body>';
+$html_text_area='';
 $html_open_table='<table style="margin-top: 10px;"><tbody>';
 $html_close_table='</tbody></table>';
 //$html_bottom='</body></html>"></iframe>';

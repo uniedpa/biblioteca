@@ -12,10 +12,10 @@
  *  \/  Las bases de datos MySQL y el usario con privilegios para esas bases de datos deben ser crados antes de usar OpenBiblio.   \/
  *********************************************************************************
  */
-define('OBIB_HOST',     getenv('OPENSHIFT_MYSQL_DB_HOST'));//el servidor Normalmente localhost
-define('OBIB_DATABASE', getenv('OPENSHIFT_GEAR_NAME'));// La base de datos donde guardan sus datos las tablas.
-define('OBIB_USERNAME', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));// El usuario para mysql
-define('OBIB_PWD',      getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));//el password sin encriptar
+define('OBIB_HOST',     getenv('OBIB_HOST'));//el servidor Normalmente localhost
+define('OBIB_DATABASE', getenv('OBIB_DATABASE'));// La base de datos donde guardan sus datos las tablas.
+define('OBIB_USERNAME', getenv('OBIB_USERNAME'));// El usuario para mysql
+define('OBIB_PWD',      getenv('OBIB_PWD'));//el password sin encriptar
 
 /*********************************************************************************
  *  /\                                                                      /\
